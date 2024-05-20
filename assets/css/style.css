@@ -13,6 +13,9 @@ html{
 .clear{
     clear: both;;
 }
+.text-while{
+    color: #FFF !important;
+}
 #header{
     width: 100%;
     height: 46px;
@@ -86,7 +89,7 @@ html{
     margin-top: 46px;
     background-color: #333;
     padding-top: 50%;
-    background: url(/WebDauTien/assets/img/slider1.jpg) top center / cover no-repeat;
+    background: url(/assets/img/slider1.jpg) top center / cover no-repeat;
     position: relative;
     z-index: -1;
 }
@@ -151,6 +154,40 @@ html{
     margin-top: 15px;
     border-radius: 4px;
     
+}
+/* tour-selection */
+.tour-selection{
+    background-color: #000;
+}
+.list-tickets{
+    margin-top: 40px;
+    background-color: #FFF;
+    border-collapse: collapse;
+    list-style-type: none;
+    
+}
+.list-tickets li{
+    color: #757575;
+    border: solid 0.1px #ccc;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+.list-tickets .sold-out{
+    margin-left: 16px;
+    background-color: #f44336;
+    padding: 4px 8px;
+    color: #FFF;
+
+}
+.list-tickets .quantity{
+    float : right;
+    margin-right: 16px;
+    background-color: #000;
+    color: #FFF;
+    padding: 4px 8px;
+    border-radius: 50%;
+    margin-top: -3px;
+    line-height: 15px;
 }
 #footer{
 
