@@ -189,6 +189,57 @@ html{
     margin-top: -3px;
     line-height: 15px;
 }
+/* place-list */
+.places-list{
+    padding: 32px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.place-items{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+    
+    
+}
+.place-body{
+    background-color: #FFF;
+    font-size: 15px;
+    padding: 0 16px;
+}
+.place-image{
+    width: 100%;
+    display: block;
+}
+.place-image:hover{
+    opacity: 0.6;
+}
+.place-name{
+    padding-top: 15px;
+    font-size: 15px;
+}
+.place-date{
+    padding-top: 15px;
+    color: #757575;
+    padding-bottom: 15px;
+
+}
+.place-decs{
+    line-height: 1.4;
+}
+.btn-buy-ticker{
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 15px;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.btn-buy-ticker:hover{
+    color: #000;
+    background-color: #ccc;
+}
 #footer{
 
 }
